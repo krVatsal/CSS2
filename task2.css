@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(50deg ,#fa8789, #a43ef1 );
+    background-color: linear-gradient( #d16ba5, #a43ef1);
+    
+}
+.box{
+    height: 350px;
+    width: 650px;
+    background-color: white;
+    border-radius: 10px;
+   /* margin: auto; */
+   /* padding-top: 30px; */
+   top: 20%;
+   left: 25%;
+   position: absolute;
+}
+.circle{
+    bottom: 62%;
+    border-radius: 100px;
+    background-color: rgb(220, 220, 220);
+    height: 200px;
+    width: 200px;
+    left: 43%;
+    position: absolute;
+    border: 100px;
+    border-color: white;
+}
+.name{
+    margin-top: 110px;
+    color: #c73ef1;
+    font-weight: 600;
+    margin-left: 283px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.social{
+    display: flex;
+    text-align: center;
+   justify-content: space-around;
+   color: grey;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 600;
+   margin-top: 20px;
+
+}
+#twitter ,#github , #facebook,#instagram,#linkedin{
+    width: 40px;
+}
+.icons{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 18px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.msg{
+    background-color:#a43ef1;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.flw{
+    background-color:#d16ba5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.bean img{
+    height: 200px;
+    width: 200px;
+    border-radius: 98px;
+    z-index: 1;
+    left: 43%;
+    position: absolute;
+}
